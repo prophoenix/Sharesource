@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{196BFAE9-F451-408D-821F-262D81A23212}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{2A73E410-EA11-41FA-9B7D-749E46415E78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newtonsoft.Json.MonoDroid", "Library\Newtonsoft.Json\Newtonsoft.Json\Newtonsoft.Json.MonoDroid.csproj", "{E6C3413C-919B-486D-8B6C-225CBD921B98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PnxSmartWDA.MvvmCross.Core", "PnxSmartWDA.MvvmCross.Core", "{1550D2D1-7244-4F87-8BBB-8F233F5C6F5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PnxSmartWDA.MvvmCross.Core", "PnxSmartWDA.MvvmCross.Core\PnxSmartWDA.MvvmCross.Core\PnxSmartWDA.MvvmCross.Core.csproj", "{E8E6714B-4D8C-421B-A606-34C23189B98E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PnxSmartWDA.MvvmCross.Droid", "PnxSmartWDA.MvvmCross.Droid", "{96EFA4E6-48A1-499A-A6B1-B30852918519}"
+	ProjectSection(SolutionItems) = preProject
+		PnxSmartWDA.MvvmCross.Core\PnxSmartWDA.MvvmCross.Core\StartApplicationObject.cs = PnxSmartWDA.MvvmCross.Core\PnxSmartWDA.MvvmCross.Core\StartApplicationObject.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PnxSmartWDA.MvvmCross.Droid", "PnxSmartWDA.MvvmCross.Droid\PnxSmartWDA.MvvmCross.Droid\PnxSmartWDA.MvvmCross.Droid.csproj", "{BAF65DF1-B45D-4A0A-95A0-196E72C8E767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PnxSmartWDA.MvvmCross.Binding", "PnxSmartWDA.MvvmCross.Binding\PnxSmartWDA.MvvmCross.Binding.csproj", "{D3245E54-D39A-4CED-8993-449E886A2D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PnxSmartWDA.MvvmCross.Common", "PnxSmartWDA.MvvmCross.Common\PnxSmartWDA.MvvmCross.Common.csproj", "{D330796B-9BC6-4F9F-95DD-82ED424C3B5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6C3413C-919B-486D-8B6C-225CBD921B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C3413C-919B-486D-8B6C-225CBD921B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C3413C-919B-486D-8B6C-225CBD921B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C3413C-919B-486D-8B6C-225CBD921B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8E6714B-4D8C-421B-A606-34C23189B98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E6714B-4D8C-421B-A606-34C23189B98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E6714B-4D8C-421B-A606-34C23189B98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E6714B-4D8C-421B-A606-34C23189B98E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF65DF1-B45D-4A0A-95A0-196E72C8E767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF65DF1-B45D-4A0A-95A0-196E72C8E767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF65DF1-B45D-4A0A-95A0-196E72C8E767}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BAF65DF1-B45D-4A0A-95A0-196E72C8E767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF65DF1-B45D-4A0A-95A0-196E72C8E767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF65DF1-B45D-4A0A-95A0-196E72C8E767}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D3245E54-D39A-4CED-8993-449E886A2D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3245E54-D39A-4CED-8993-449E886A2D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3245E54-D39A-4CED-8993-449E886A2D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3245E54-D39A-4CED-8993-449E886A2D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D330796B-9BC6-4F9F-95DD-82ED424C3B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D330796B-9BC6-4F9F-95DD-82ED424C3B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D330796B-9BC6-4F9F-95DD-82ED424C3B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D330796B-9BC6-4F9F-95DD-82ED424C3B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3245E54-D39A-4CED-8993-449E886A2D65} = {196BFAE9-F451-408D-821F-262D81A23212}
+		{D330796B-9BC6-4F9F-95DD-82ED424C3B5F} = {196BFAE9-F451-408D-821F-262D81A23212}
+		{E6C3413C-919B-486D-8B6C-225CBD921B98} = {2A73E410-EA11-41FA-9B7D-749E46415E78}
+		{E8E6714B-4D8C-421B-A606-34C23189B98E} = {1550D2D1-7244-4F87-8BBB-8F233F5C6F5D}
+		{BAF65DF1-B45D-4A0A-95A0-196E72C8E767} = {96EFA4E6-48A1-499A-A6B1-B30852918519}
+	EndGlobalSection
+EndGlobal
