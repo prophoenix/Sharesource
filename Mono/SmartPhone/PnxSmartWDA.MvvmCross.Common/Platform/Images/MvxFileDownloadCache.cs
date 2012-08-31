@@ -1,12 +1,12 @@
 #region Copyright
-// <copyright file="MvxFileDownloadCache.cs" company="Cirrious">
-// (c) Copyright Cirrious. http://www.cirrious.com
+// <copyright file="MvxFileDownloadCache.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
 // This source is subject to the Microsoft Public License (Ms-PL)
 // Please see license.txt on http://opensource.org/licenses/ms-pl.html
 // All other rights reserved.
 // </copyright>
 // 
-// Project Lead - Stuart Lodge, Cirrious. http://www.cirrious.com
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
 #endregion
 
 #if !NETFX_CORE
@@ -15,15 +15,15 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using PnxSmartWDA.MvvmCross.ExtensionMethods;
-using PnxSmartWDA.MvvmCross.Interfaces.Platform;
-using PnxSmartWDA.MvvmCross.Interfaces.Platform.Diagnostics;
-using PnxSmartWDA.MvvmCross.Interfaces.Platform.Images;
-using PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
-using PnxSmartWDA.MvvmCross.Platform.Diagnostics;
+using  PnxSmartWDA.MvvmCross.ExtensionMethods;
+using  PnxSmartWDA.MvvmCross.Interfaces.Platform;
+using  PnxSmartWDA.MvvmCross.Interfaces.Platform.Diagnostics;
+using  PnxSmartWDA.MvvmCross.Interfaces.Platform.Images;
+using  PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
+using  PnxSmartWDA.MvvmCross.Platform.Diagnostics;
 using Newtonsoft.Json;
 
-namespace PnxSmartWDA.MvvmCross.Platform.Images
+namespace  PnxSmartWDA.MvvmCross.Platform.Images
 {
     public class MvxFileDownloadCache
         : IMvxFileDownloadCache

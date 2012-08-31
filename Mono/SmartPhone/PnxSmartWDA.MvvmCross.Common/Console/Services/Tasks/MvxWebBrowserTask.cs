@@ -10,11 +10,11 @@
 #endregion
 #region using
 
-using PnxSmartWDA.MvvmCross.Interfaces.Platform.Tasks;
+using Cirrious.MvvmCross.Interfaces.Platform.Tasks;
 
 #endregion
 
-namespace PnxSmartWDA.MvvmCross.Console.Services.Tasks
+namespace Cirrious.MvvmCross.Console.Services.Tasks
 {
     public class MvxWebBrowserTask : IMvxWebBrowserTask
     {

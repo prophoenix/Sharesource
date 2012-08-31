@@ -9,9 +9,9 @@
 // Author - Stuart Lodge, Cirrious. http://www.cirrious.com
 #endregion
 
-using PnxSmartWDA.MvvmCross.Interfaces.Views;
+using Cirrious.MvvmCross.Interfaces.Views;
 
-namespace PnxSmartWDA.MvvmCross.Console.Views
+namespace Cirrious.MvvmCross.Console.Views
 {
     public class MvxConsoleDispatcherProvider
         : IMvxViewDispatcherProvider

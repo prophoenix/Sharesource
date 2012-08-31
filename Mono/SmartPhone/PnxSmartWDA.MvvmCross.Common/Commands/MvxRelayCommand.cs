@@ -1,19 +1,19 @@
 ﻿#region Copyright
-// <copyright file="MvxRelayCommand.cs" company="Cirrious">
-// (c) Copyright Cirrious. http://www.cirrious.com
+// <copyright file="MvxRelayCommand.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
 // This source is subject to the Microsoft Public License (Ms-PL)
 // Please see license.txt on http://opensource.org/licenses/ms-pl.html
 // All other rights reserved.
 // </copyright>
 // 
-// Project Lead - Stuart Lodge, Cirrious. http://www.cirrious.com
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
 #endregion
 
 using System;
-using PnxSmartWDA.MvvmCross.Interfaces.Commands;
-using PnxSmartWDA.MvvmCross.ViewModels;
+using  PnxSmartWDA.MvvmCross.Interfaces.Commands;
+using  PnxSmartWDA.MvvmCross.ViewModels;
 
-namespace PnxSmartWDA.MvvmCross.Commands
+namespace  PnxSmartWDA.MvvmCross.Commands
 {
     public class MvxRelayCommand
         : MvxMainThreadDispatchingObject 

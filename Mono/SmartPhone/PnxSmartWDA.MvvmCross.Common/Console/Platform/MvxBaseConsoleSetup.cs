@@ -10,15 +10,15 @@
 #endregion
 
 using System.Collections.Generic;
-using PnxSmartWDA.MvvmCross.Console.Interfaces;
-using PnxSmartWDA.MvvmCross.Console.Views;
-using PnxSmartWDA.MvvmCross.ExtensionMethods;
-using PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
-using PnxSmartWDA.MvvmCross.Interfaces.Views;
-using PnxSmartWDA.MvvmCross.Platform;
-using PnxSmartWDA.MvvmCross.Views;
+using Cirrious.MvvmCross.Console.Interfaces;
+using Cirrious.MvvmCross.Console.Views;
+using Cirrious.MvvmCross.ExtensionMethods;
+using Cirrious.MvvmCross.Interfaces.ServiceProvider;
+using Cirrious.MvvmCross.Interfaces.Views;
+using Cirrious.MvvmCross.Platform;
+using Cirrious.MvvmCross.Views;
 
-namespace PnxSmartWDA.MvvmCross.Console.Platform
+namespace Cirrious.MvvmCross.Console.Platform
 {
     public abstract class MvxBaseConsoleSetup 
         : MvxBaseSetup        

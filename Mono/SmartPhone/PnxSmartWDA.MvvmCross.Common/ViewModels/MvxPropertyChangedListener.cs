@@ -13,9 +13,9 @@ using System;
 using System.ComponentModel;
 using System.Linq.Expressions;
 using System.Collections.Generic;
-using  PnxSmartWDA.MvvmCross.ExtensionMethods;
+using Cirrious.MvvmCross.ExtensionMethods;
 
-namespace  PnxSmartWDA.MvvmCross.ViewModels
+namespace Cirrious.MvvmCross.ViewModels
 {
     public class MvxPropertyChangedListener
         : IDisposable

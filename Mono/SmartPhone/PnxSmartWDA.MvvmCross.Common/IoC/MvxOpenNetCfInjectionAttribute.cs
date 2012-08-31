@@ -1,12 +1,12 @@
 #region Copyright
-// <copyright file="MvxOpenNetCfInjectionAttribute.cs" company="Cirrious">
-// (c) Copyright Cirrious. http://www.cirrious.com
+// <copyright file="MvxOpenNetCfInjectionAttribute.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
 // This source is subject to the Microsoft Public License (Ms-PL)
 // Please see license.txt on http://opensource.org/licenses/ms-pl.html
 // All other rights reserved.
 // </copyright>
 // 
-// Project Lead - Stuart Lodge, Cirrious. http://www.cirrious.com
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
 #endregion
 #region Credit - OpenNetCf
 
@@ -16,7 +16,7 @@
 
 using System;
 
-namespace PnxSmartWDA.MvvmCross.IoC
+namespace  PnxSmartWDA.MvvmCross.IoC
 {
     [AttributeUsage(AttributeTargets.Constructor)]
     public class MvxOpenNetCfInjectionAttribute : Attribute

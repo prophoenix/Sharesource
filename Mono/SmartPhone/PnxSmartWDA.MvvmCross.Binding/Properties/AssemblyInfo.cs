@@ -1,15 +1,25 @@
+#region Copyright
+// <copyright file="AssemblyInfo.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
+// This source is subject to the Microsoft Public License (Ms-PL)
+// Please see license.txt on http://opensource.org/licenses/ms-pl.html
+// All other rights reserved.
+// </copyright>
+// 
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
+#endregion
+
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle(" PnxSmartWDA.MvvmCross.Binding")]
+[assembly: AssemblyTitle(" PnxSmartWDA.MvvmCross.Binding.Android")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct(" PnxSmartWDA.MvvmCross.Binding")]
+[assembly: AssemblyProduct(" PnxSmartWDA.MvvmCross.Binding.Android")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

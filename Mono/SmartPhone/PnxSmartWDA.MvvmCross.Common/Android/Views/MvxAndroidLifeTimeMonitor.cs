@@ -1,20 +1,20 @@
 #region Copyright
-// <copyright file="MvxAndroidLifeTimeMonitor.cs" company="Cirrious">
-// (c) Copyright Cirrious. http://www.cirrious.com
+// <copyright file="MvxAndroidLifeTimeMonitor.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
 // This source is subject to the Microsoft Public License (Ms-PL)
 // Please see license.txt on http://opensource.org/licenses/ms-pl.html
 // All other rights reserved.
 // </copyright>
 // 
-// Project Lead - Stuart Lodge, Cirrious. http://www.cirrious.com
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
 #endregion
 
 using Android.App;
-using PnxSmartWDA.MvvmCross.Android.Interfaces;
-using PnxSmartWDA.MvvmCross.Interfaces.Platform.Lifetime;
-using PnxSmartWDA.MvvmCross.Platform.Lifetime;
+using  PnxSmartWDA.MvvmCross.Android.Interfaces;
+using  PnxSmartWDA.MvvmCross.Interfaces.Platform.Lifetime;
+using  PnxSmartWDA.MvvmCross.Platform.Lifetime;
 
-namespace PnxSmartWDA.MvvmCross.Android.Views
+namespace  PnxSmartWDA.MvvmCross.Android.Views
 {
     // For lifetime explained, see http://developer.android.com/guide/topics/fundamentals/activities.html
     // Note that we set Activity = activity in multiple places

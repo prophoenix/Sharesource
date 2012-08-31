@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace PnxSmartWDA.MvvmCross.Converters.Color
+namespace  PnxSmartWDA.MvvmCross.Converters.Color
 {
     public class MvxRGBIntColorConverter : MvxBaseColorConverter
     {

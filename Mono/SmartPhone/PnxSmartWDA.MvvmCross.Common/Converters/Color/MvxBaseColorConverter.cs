@@ -1,6 +1,6 @@
 using System;
 
-namespace PnxSmartWDA.MvvmCross.Converters.Color
+namespace  PnxSmartWDA.MvvmCross.Converters.Color
 {
     public abstract class MvxBaseColorConverter : MvxBaseValueConverter
     {

@@ -14,11 +14,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using PnxSmartWDA.MvvmCross.Platform;
+using Cirrious.MvvmCross.Platform;
 
 #endregion
 
-namespace PnxSmartWDA.MvvmCross.Console.Services
+namespace Cirrious.MvvmCross.Console.Services
 {
     public class MvxFileStoreService : MvxBaseFileStoreService
     {

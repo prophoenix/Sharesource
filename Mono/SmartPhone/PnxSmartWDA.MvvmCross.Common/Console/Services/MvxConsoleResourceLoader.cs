@@ -14,9 +14,9 @@
 using System;
 using System.IO;
 using System.Reflection;
-using PnxSmartWDA.MvvmCross.Platform;
+using Cirrious.MvvmCross.Platform;
 
-namespace PnxSmartWDA.MvvmCross.Console.Services
+namespace Cirrious.MvvmCross.Console.Services
 {
     public class MvxConsoleResourceLoader : MvxBaseResourceLoader
     {

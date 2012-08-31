@@ -9,10 +9,10 @@
 // Author - Stuart Lodge, Cirrious. http://www.cirrious.com
 #endregion
 
-using PnxSmartWDA.MvvmCross.Console.Interfaces;
-using PnxSmartWDA.MvvmCross.ExtensionMethods;
+using Cirrious.MvvmCross.Console.Interfaces;
+using Cirrious.MvvmCross.ExtensionMethods;
 
-namespace PnxSmartWDA.MvvmCross.Console.Views
+namespace Cirrious.MvvmCross.Console.Views
 {
     public class MvxConsoleMessagePump : IMvxConsoleCurrentView, IMvxMessagePump
     {

@@ -1,4 +1,4 @@
-namespace PnxSmartWDA.MvvmCross.Converters.Color
+namespace  PnxSmartWDA.MvvmCross.Converters.Color
 {
     public class MvxColor
     {

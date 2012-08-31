@@ -9,9 +9,9 @@
 // Author - Stuart Lodge, Cirrious. http://www.cirrious.com
 #endregion
 
-using PnxSmartWDA.MvvmCross.Interfaces.Platform.Tasks;
+using Cirrious.MvvmCross.Interfaces.Platform.Tasks;
 
-namespace PnxSmartWDA.MvvmCross.Console.Services.Tasks
+namespace Cirrious.MvvmCross.Console.Services.Tasks
 {
     public class MvxPhoneCallTask : IMvxPhoneCallTask
     {

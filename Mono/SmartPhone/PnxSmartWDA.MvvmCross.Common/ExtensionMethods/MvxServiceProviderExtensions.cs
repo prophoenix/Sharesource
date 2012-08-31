@@ -1,18 +1,18 @@
 ﻿#region Copyright
-// <copyright file="MvxServiceProviderExtensions.cs" company="Cirrious">
-// (c) Copyright Cirrious. http://www.cirrious.com
+// <copyright file="MvxServiceProviderExtensions.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
 // This source is subject to the Microsoft Public License (Ms-PL)
 // Please see license.txt on http://opensource.org/licenses/ms-pl.html
 // All other rights reserved.
 // </copyright>
 // 
-// Project Lead - Stuart Lodge, Cirrious. http://www.cirrious.com
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
 #endregion
 
-using PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
-using PnxSmartWDA.MvvmCross.Platform;
+using  PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
+using  PnxSmartWDA.MvvmCross.Platform;
 
-namespace PnxSmartWDA.MvvmCross.ExtensionMethods
+namespace  PnxSmartWDA.MvvmCross.ExtensionMethods
 {
     public static class MvxServiceProviderExtensions
     {

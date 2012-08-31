@@ -1,12 +1,12 @@
 ﻿#region Copyright
-// <copyright file="MvxViewModelLocator.cs" company="Cirrious">
-// (c) Copyright Cirrious. http://www.cirrious.com
+// <copyright file="MvxViewModelLocator.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
 // This source is subject to the Microsoft Public License (Ms-PL)
 // Please see license.txt on http://opensource.org/licenses/ms-pl.html
 // All other rights reserved.
 // </copyright>
 // 
-// Project Lead - Stuart Lodge, Cirrious. http://www.cirrious.com
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
 #endregion
 #region using
 
@@ -15,15 +15,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading;
-using PnxSmartWDA.MvvmCross.Exceptions;
-using PnxSmartWDA.MvvmCross.ExtensionMethods;
-using PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
-using PnxSmartWDA.MvvmCross.Interfaces.ViewModels;
-using PnxSmartWDA.MvvmCross.Platform.Diagnostics;
+using  PnxSmartWDA.MvvmCross.Exceptions;
+using  PnxSmartWDA.MvvmCross.ExtensionMethods;
+using  PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
+using  PnxSmartWDA.MvvmCross.Interfaces.ViewModels;
+using  PnxSmartWDA.MvvmCross.Platform.Diagnostics;
 
 #endregion
 
-namespace PnxSmartWDA.MvvmCross.Application
+namespace  PnxSmartWDA.MvvmCross.Application
 {
     public abstract class MvxViewModelLocator
         : IMvxViewModelLocator

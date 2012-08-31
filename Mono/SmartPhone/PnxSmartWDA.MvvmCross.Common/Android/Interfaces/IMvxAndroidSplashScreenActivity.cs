@@ -1,15 +1,15 @@
 #region Copyright
-// <copyright file="IMvxAndroidSplashScreenActivity.cs" company="Cirrious">
-// (c) Copyright Cirrious. http://www.cirrious.com
+// <copyright file="IMvxAndroidSplashScreenActivity.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
 // This source is subject to the Microsoft Public License (Ms-PL)
 // Please see license.txt on http://opensource.org/licenses/ms-pl.html
 // All other rights reserved.
 // </copyright>
 // 
-// Project Lead - Stuart Lodge, Cirrious. http://www.cirrious.com
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
 #endregion
 
-namespace PnxSmartWDA.MvvmCross.Android.Interfaces
+namespace  PnxSmartWDA.MvvmCross.Android.Interfaces
 {
     public interface IMvxAndroidSplashScreenActivity
     {        

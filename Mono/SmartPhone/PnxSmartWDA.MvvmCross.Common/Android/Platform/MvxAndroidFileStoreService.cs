@@ -1,25 +1,25 @@
 ﻿#region Copyright
-// <copyright file="MvxAndroidFileStoreService.cs" company="Cirrious">
-// (c) Copyright Cirrious. http://www.cirrious.com
+// <copyright file="MvxAndroidFileStoreService.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
 // This source is subject to the Microsoft Public License (Ms-PL)
 // Please see license.txt on http://opensource.org/licenses/ms-pl.html
 // All other rights reserved.
 // </copyright>
 // 
-// Project Lead - Stuart Lodge, Cirrious. http://www.cirrious.com
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
 #endregion
 #region using
 
 using System.IO;
 using Android.Content;
-using PnxSmartWDA.MvvmCross.Android.Interfaces;
-using PnxSmartWDA.MvvmCross.ExtensionMethods;
-using PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
-using PnxSmartWDA.MvvmCross.Platform;
+using  PnxSmartWDA.MvvmCross.Android.Interfaces;
+using  PnxSmartWDA.MvvmCross.ExtensionMethods;
+using  PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
+using  PnxSmartWDA.MvvmCross.Platform;
 
 #endregion
 
-namespace PnxSmartWDA.MvvmCross.Android.Platform
+namespace  PnxSmartWDA.MvvmCross.Android.Platform
 {
     public class MvxAndroidFileStoreService 
         : MvxBaseFileStoreService

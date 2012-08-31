@@ -8,7 +8,7 @@
 // 
 // Author - Stuart Lodge, Cirrious. http://www.cirrious.com
 #endregion
-namespace PnxSmartWDA.MvvmCross.Console.Interfaces
+namespace Cirrious.MvvmCross.Console.Interfaces
 {
     public interface IMvxConsoleCurrentView
     {

@@ -11,15 +11,15 @@
 
 using System;
 using System.Collections.Generic;
-using PnxSmartWDA.MvvmCross.Console.Interfaces;
-using PnxSmartWDA.MvvmCross.Exceptions;
-using PnxSmartWDA.MvvmCross.ExtensionMethods;
-using PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
-using PnxSmartWDA.MvvmCross.Interfaces.ViewModels;
-using PnxSmartWDA.MvvmCross.Interfaces.Views;
-using PnxSmartWDA.MvvmCross.Views;
+using Cirrious.MvvmCross.Console.Interfaces;
+using Cirrious.MvvmCross.Exceptions;
+using Cirrious.MvvmCross.ExtensionMethods;
+using Cirrious.MvvmCross.Interfaces.ServiceProvider;
+using Cirrious.MvvmCross.Interfaces.ViewModels;
+using Cirrious.MvvmCross.Interfaces.Views;
+using Cirrious.MvvmCross.Views;
 
-namespace PnxSmartWDA.MvvmCross.Console.Views
+namespace Cirrious.MvvmCross.Console.Views
 {
     public class MvxConsoleContainer
         : MvxBaseConsoleContainer 

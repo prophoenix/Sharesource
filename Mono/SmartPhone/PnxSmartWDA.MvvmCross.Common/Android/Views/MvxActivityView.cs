@@ -1,26 +1,26 @@
 #region Copyright
-// <copyright file="MvxActivityView.cs" company="Cirrious">
-// (c) Copyright Cirrious. http://www.cirrious.com
+// <copyright file="MvxActivityView.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
 // This source is subject to the Microsoft Public License (Ms-PL)
 // Please see license.txt on http://opensource.org/licenses/ms-pl.html
 // All other rights reserved.
 // </copyright>
 // 
-// Project Lead - Stuart Lodge, Cirrious. http://www.cirrious.com
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
 #endregion
 
 using System;
 using Android.App;
 using Android.Content;
 using Android.OS;
-using PnxSmartWDA.MvvmCross.Android.ExtensionMethods;
-using PnxSmartWDA.MvvmCross.Android.Interfaces;
-using PnxSmartWDA.MvvmCross.ExtensionMethods;
-using PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
-using PnxSmartWDA.MvvmCross.Interfaces.ViewModels;
-using PnxSmartWDA.MvvmCross.Platform.Diagnostics;
+using  PnxSmartWDA.MvvmCross.Android.ExtensionMethods;
+using  PnxSmartWDA.MvvmCross.Android.Interfaces;
+using  PnxSmartWDA.MvvmCross.ExtensionMethods;
+using  PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
+using  PnxSmartWDA.MvvmCross.Interfaces.ViewModels;
+using  PnxSmartWDA.MvvmCross.Platform.Diagnostics;
 
-namespace PnxSmartWDA.MvvmCross.Android.Views
+namespace  PnxSmartWDA.MvvmCross.Android.Views
 {
     public abstract class MvxActivityView<TViewModel>
         : Activity

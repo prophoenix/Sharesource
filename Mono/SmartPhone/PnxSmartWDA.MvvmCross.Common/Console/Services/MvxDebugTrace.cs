@@ -10,9 +10,9 @@
 #endregion
 
 using System.Diagnostics;
-using PnxSmartWDA.MvvmCross.Interfaces.Platform.Diagnostics;
+using Cirrious.MvvmCross.Interfaces.Platform.Diagnostics;
 
-namespace PnxSmartWDA.MvvmCross.Console.Services
+namespace Cirrious.MvvmCross.Console.Services
 {
     public class MvxDebugTrace : IMvxTrace
     {

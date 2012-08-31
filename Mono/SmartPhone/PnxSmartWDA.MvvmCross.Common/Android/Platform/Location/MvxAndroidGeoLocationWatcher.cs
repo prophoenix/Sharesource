@@ -1,12 +1,12 @@
 ﻿#region Copyright
-// <copyright file="MvxAndroidGeoLocationWatcher.cs" company="Cirrious">
-// (c) Copyright Cirrious. http://www.cirrious.com
+// <copyright file="MvxAndroidGeoLocationWatcher.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
 // This source is subject to the Microsoft Public License (Ms-PL)
 // Please see license.txt on http://opensource.org/licenses/ms-pl.html
 // All other rights reserved.
 // </copyright>
 // 
-// Project Lead - Stuart Lodge, Cirrious. http://www.cirrious.com
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
 #endregion
 #warning Credit to ChrisNTR fro some of this code
 
@@ -16,16 +16,16 @@ using System.Threading;
 using Android.Content;
 using Android.Locations;
 using Android.OS;
-using PnxSmartWDA.MvvmCross.Android.Interfaces;
-using PnxSmartWDA.MvvmCross.Exceptions;
-using PnxSmartWDA.MvvmCross.ExtensionMethods;
-using PnxSmartWDA.MvvmCross.Interfaces.Platform.Location;
-using PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
-using PnxSmartWDA.MvvmCross.Platform;
-using PnxSmartWDA.MvvmCross.Platform.Diagnostics;
-using PnxSmartWDA.MvvmCross.Platform.Location;
+using  PnxSmartWDA.MvvmCross.Android.Interfaces;
+using  PnxSmartWDA.MvvmCross.Exceptions;
+using  PnxSmartWDA.MvvmCross.ExtensionMethods;
+using  PnxSmartWDA.MvvmCross.Interfaces.Platform.Location;
+using  PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
+using  PnxSmartWDA.MvvmCross.Platform;
+using  PnxSmartWDA.MvvmCross.Platform.Diagnostics;
+using  PnxSmartWDA.MvvmCross.Platform.Location;
 
-namespace PnxSmartWDA.MvvmCross.Android.Platform.Location
+namespace  PnxSmartWDA.MvvmCross.Android.Platform.Location
 {
     public sealed class MvxAndroidGeoLocationWatcher 
         : MvxBaseGeoLocationWatcher

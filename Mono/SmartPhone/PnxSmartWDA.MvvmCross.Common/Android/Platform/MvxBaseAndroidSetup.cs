@@ -1,12 +1,12 @@
 #region Copyright
-// <copyright file="MvxBaseAndroidSetup.cs" company="Cirrious">
-// (c) Copyright Cirrious. http://www.cirrious.com
+// <copyright file="MvxBaseAndroidSetup.cs" company=" PnxSmartWDA">
+// (c) Copyright  PnxSmartWDA. http://www. PnxSmartWDA.com
 // This source is subject to the Microsoft Public License (Ms-PL)
 // Please see license.txt on http://opensource.org/licenses/ms-pl.html
 // All other rights reserved.
 // </copyright>
 // 
-// Project Lead - Stuart Lodge, Cirrious. http://www.cirrious.com
+// Project Lead - Stuart Lodge,  PnxSmartWDA. http://www. PnxSmartWDA.com
 #endregion
 
 using System;
@@ -14,17 +14,17 @@ using System.Collections.Generic;
 using System.Reflection;
 using Android.Content;
 using Android.Graphics;
-using PnxSmartWDA.MvvmCross.Android.Interfaces;
-using PnxSmartWDA.MvvmCross.Android.Platform.Images;
-using PnxSmartWDA.MvvmCross.Android.Views;
-using PnxSmartWDA.MvvmCross.ExtensionMethods;
-using PnxSmartWDA.MvvmCross.Interfaces.Platform.Images;
-using PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
-using PnxSmartWDA.MvvmCross.Platform;
-using PnxSmartWDA.MvvmCross.Platform.Images;
-using PnxSmartWDA.MvvmCross.Views;
+using  PnxSmartWDA.MvvmCross.Android.Interfaces;
+using  PnxSmartWDA.MvvmCross.Android.Platform.Images;
+using  PnxSmartWDA.MvvmCross.Android.Views;
+using  PnxSmartWDA.MvvmCross.ExtensionMethods;
+using  PnxSmartWDA.MvvmCross.Interfaces.Platform.Images;
+using  PnxSmartWDA.MvvmCross.Interfaces.ServiceProvider;
+using  PnxSmartWDA.MvvmCross.Platform;
+using  PnxSmartWDA.MvvmCross.Platform.Images;
+using  PnxSmartWDA.MvvmCross.Views;
 
-namespace PnxSmartWDA.MvvmCross.Android.Platform
+namespace  PnxSmartWDA.MvvmCross.Android.Platform
 {
     public abstract class MvxBaseAndroidSetup
         : MvxBaseSetup

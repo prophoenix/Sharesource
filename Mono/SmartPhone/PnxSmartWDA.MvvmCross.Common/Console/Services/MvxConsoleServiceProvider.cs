@@ -10,17 +10,17 @@
 #endregion
 #region using
 
-using PnxSmartWDA.MvvmCross.Console.Services.Tasks;
-using PnxSmartWDA.MvvmCross.Interfaces.IoC;
-using PnxSmartWDA.MvvmCross.Interfaces.Localization;
-using PnxSmartWDA.MvvmCross.Interfaces.Platform;
-using PnxSmartWDA.MvvmCross.Interfaces.Platform.Diagnostics;
-using PnxSmartWDA.MvvmCross.Interfaces.Platform.Tasks;
-using PnxSmartWDA.MvvmCross.Platform;
+using Cirrious.MvvmCross.Console.Services.Tasks;
+using Cirrious.MvvmCross.Interfaces.IoC;
+using Cirrious.MvvmCross.Interfaces.Localization;
+using Cirrious.MvvmCross.Interfaces.Platform;
+using Cirrious.MvvmCross.Interfaces.Platform.Diagnostics;
+using Cirrious.MvvmCross.Interfaces.Platform.Tasks;
+using Cirrious.MvvmCross.Platform;
 
 #endregion
 
-namespace PnxSmartWDA.MvvmCross.Console.Services
+namespace Cirrious.MvvmCross.Console.Services
 {
     [MvxServiceProvider]
     public class MvxConsoleServiceProvider : MvxPlatformIndependentServiceProvider
